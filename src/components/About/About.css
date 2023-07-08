@@ -1,0 +1,97 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.about_container{
+    height: 131vh;
+    width: 100%;
+    background-image: linear-gradient(to bottom, #191a1b, #182027, #162534, #132a41, #102f4f);
+}
+#about_heading{
+    color: rgb(96, 247, 211);
+    font-size: 30px;
+    padding: 30px;
+}
+#about_intro{
+    padding: 30px;
+    color: white;
+    font-size: 22px;
+    margin-top: -40px;
+}
+
+.about_cards{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.row1,.row2{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+}
+.row2{
+    margin-top: 40px;
+}
+
+.message-div {
+    position: relative;
+    width: 400px;
+    height: 250px;
+    background-color: lightblue;
+    border-radius: 50px 50px 50px 33px;
+    padding: 22px;
+    /* margin-bottom: 20px; */
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5); /* Add the glow effect */
+    color: rgb(77, 77, 77);
+    font-size: 18px;
+  }
+  
+  .message-div::before {
+    content: "";
+    position: absolute;
+    bottom: -35px;
+    left: 5px;
+    width: 50px;
+    height: 50px;
+    background-color: lightblue;
+    transform: rotate(-35deg);
+    transform-origin: 0 0;
+  }
+  
+  .message-div h1{
+    color: rgb(95, 54, 2);
+  }
+  p{
+    /* margin-top: -20px; */
+    margin-top: 10px;
+  }
+  
+@media(max-width:946px){
+    .row1,.row2{
+        flex-direction: column;
+    }
+    .about_container{
+        height: auto;
+    }
+}
+@media(max-width:471px){
+    #about_intro{
+        font-size: 18px;
+    }
+    .message-div{
+        height:170px;
+        width:300px;
+        font-size: 13.5px;
+    }
+    #project_card{
+        margin-top: 10px;
+    }
+    #people_card{
+        margin-top: 10px;
+    }
+}
+  

@@ -18,7 +18,7 @@ const Navbar = () => {
                 <span className='menu_items'><a href="">Home</a></span>
                 <span className='menu_items'><a href="">About</a></span>
                 <span className='menu_items'><a href="">Our Team</a></span>
-                <span id="heading">IETE Student's Forum</span>
+                <span id="heading">IETE Students' Forum</span>
                 <span className='menu_items'><a href="">Projects</a></span>
                 <span className='menu_items'><a href="">Gallery</a></span>
                 <span className='menu_items'><a href="">Contact</a></span>

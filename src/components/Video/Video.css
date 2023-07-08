@@ -1,0 +1,20 @@
+.video_container {
+    height: 88vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden; /* Add this line to hide any overflowing content */
+  }
+  
+  .video_container video {
+    width: 100%; /* Set the width to fill the container */
+    height: 100%; /* Set the height to fill the container */
+    object-fit: cover; /* Ensure the video covers the entire container */
+  }
+
+  @media(max-width:759px){
+    .video_container{
+        margin-top: 0px;
+    }
+}
