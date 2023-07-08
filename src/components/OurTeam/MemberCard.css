@@ -1,0 +1,40 @@
+.card{
+    height: 350px;
+    width: 300px;
+    /* border: 2px solid grey; */
+    border-top-right-radius: 70px;
+    border-bottom-left-radius:70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    /* box-shadow: 10px 10px darkgrey; */
+    border:2px solid rgb(96, 247, 211);
+}
+.img_container{
+    height: 180px;
+    width: 180px;
+    border-radius: 100%;
+    border-radius: 100%;
+    border: 2px solid white;
+    margin-top: 20px;
+}
+.img_container img{
+    height: 180px;
+    width: 180px;
+    border-radius: 100%;
+}
+#name{
+    color: white;
+    font-size: 24px;
+}
+#position{
+    color: rgb(96, 247, 211);
+    font-size: 18px;
+}
+.urls{
+    color: lightblue;
+}
+.urls a{
+    color: lightblue;
+}
