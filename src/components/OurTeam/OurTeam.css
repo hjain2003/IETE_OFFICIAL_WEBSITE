@@ -23,3 +23,19 @@
     flex-direction: row;
     justify-content: space-around;
 }
+
+@media(max-width:1019px){
+    .ourteam_container{
+        height: auto;
+        /* justify-content: center;
+        align-items: center; */
+    }
+    .team_cards{
+        justify-content: center;
+        align-items: center;
+    }
+    .row1,.row2,.row3{
+        flex-direction: column;
+        margin-top: -10px;
+    }
+}

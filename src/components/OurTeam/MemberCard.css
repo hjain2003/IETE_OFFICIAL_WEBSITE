@@ -38,3 +38,41 @@
 .urls a{
     color: lightblue;
 }
+
+@media(max-width:1321px){
+    .card{
+        height:320px;
+        width:270px;
+    }
+    .img_container,.img_container img{
+        height: 150px;
+        width: 150px;
+    }
+    #name{
+        font-size: 20px;
+    }
+    #position{
+        font-size: 16px;
+    }
+}
+@media(max-width:1183px){
+    .card{
+        height:280px;
+        width:230px;
+    }
+    .img_container,.img_container img{
+        height: 130px;
+        width: 130px;
+    }
+    #name{
+        font-size: 17px;
+    }
+    #position{
+        font-size: 15px;
+    }
+}
+@media(max-width:1019px){
+    .card{
+        margin-top: 20px;
+    }
+}
