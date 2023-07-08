@@ -2,6 +2,10 @@ import React from 'react'
 import './Contact.css';
 import iete_logo from '../../assets/Logo_icons/IETE_Logo.png'
 import arrow from '../../assets/Logo_icons/pointer_arrow.png'
+import linkedin from '../../assets/Logo_icons/linkedin.png'
+import insta from '../../assets/Logo_icons/insta.png'
+import youtube from '../../assets/Logo_icons/youtube.png'
+import fb from '../../assets/Logo_icons/facebook.png'
 
 const Contact = () => {
     return (
@@ -26,6 +30,13 @@ const Contact = () => {
                         <br />
                         <span><b>Phone :</b>+91 9999999999</span>
                         <span><b>Email :</b> iete_sc@thapar.edu</span>
+                        <br />
+                        <span className="icons">
+                            <img src={linkedin} alt="" />
+                            <img src={fb} alt="" />
+                            <img src={insta} alt="" />
+                            <img src={youtube} alt="" />
+                        </span>
                     </div>
                 </div>
             </div>

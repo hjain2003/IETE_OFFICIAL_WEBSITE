@@ -27,7 +27,7 @@ const About = () => {
                         </div>
                         <div className="row2">
                             <div className="about_card">
-                                <div className="message-div">
+                                <div className="message-div" id="funding_card">
                                     <h1>Funding</h1>
                                     <p>Wanted to build a cool bot but can't really afford the components? Don't worry we have you covered!</p>
                                 </div>

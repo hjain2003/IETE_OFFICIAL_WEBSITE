@@ -10,7 +10,7 @@
     justify-content: center;
     align-items: center;
     margin: auto;
-    width:900px;
+    /* width:900px; */
     /* border: 2px solid white; */
     /* padding: 20px; */
 }
@@ -23,20 +23,22 @@
 }
 
 .contact_row img{
-    height: 300px;
-    width: 300px;
+    height: 370px;
+    width: 370px;
 }
 .useful_links{
     display: flex;
     flex-direction: column;
+    font-size: 22px;
 }
 #useful_heading{
     color: white;
-    font-size: 23px;
+    font-size: 26px;
 }
 .useful_links hr{
     border: 2px solid rgb(96, 247, 211);
     margin-top: 10px;
+    width: 220px;
 }
 .useful_links img{
     height: 18px;
@@ -64,5 +66,39 @@
 
 }
 .contact_head{
-    margin-top: -110px;
+    margin-top: -37px;
+}
+
+.hello_section span{
+    font-size: 20px;
+}   
+.icons img{
+    height: 30px;
+    width: 30px;
+    padding: 10px;
+}
+
+@media(max-width:1019px){
+    .contact_row{
+        flex-direction: column;
+    }
+    .hello_section{
+        margin-top: 65px;
+        margin-bottom: 20px;
+    }
+    .useful_links{
+        margin-top: -50px;
+        font-size: 20px;
+    }
+    .hello_section span{
+        font-size: 18px;
+    }
+    .contact_section{
+        height: auto;
+        /* padding: 20px; */
+
+    }
+    #useful_heading{
+        font-size: 23px;
+    }
 }
