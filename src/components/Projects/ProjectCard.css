@@ -1,0 +1,44 @@
+.project_card{
+    height: 350px;
+    width: 330px;
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    /* align-items: center; */
+}
+.project_image_container ,.project_image_container img{
+    height: 175px;
+    width: 330px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.project_image_container img{
+    border: 2px solid black;
+}
+
+@media(max-width:1122px){
+    .project_card{
+        height: 300px;
+        width: 280px;
+    }
+    .project_image_container,.project_image_container img{
+        height: 150px;
+        width: 280px;
+    }
+    .project_card h2{
+        font-size: 20px;
+    }
+}
+@media(max-width:932px){
+    .project_card{
+        margin-top: 20px;
+    }
+}

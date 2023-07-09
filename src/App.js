@@ -3,6 +3,7 @@ import About from './components/About/About';
 import Contact from './components/Contact/Contact';
 import Navbar from './components/Navbar/Navbar';
 import OurTeam from './components/OurTeam/OurTeam';
+import Project from './components/Projects/Project';
 import Video from './components/Video/Video';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
     <Video/>
     <About/>
     <OurTeam/>
+    <Project/>
     <Contact/>
     </>
   );
