@@ -10,7 +10,7 @@ const ProjectCard = (props) => {
                 <img src={props.img} alt="" />
             </div>
                 <h2>{props.name}</h2>
-                <p align="center">{props.description}?</p>
+                <p align="center">{props.description}</p>
         </div>
     </>
   )
